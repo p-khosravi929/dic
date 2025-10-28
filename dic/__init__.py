@@ -4,9 +4,10 @@ A Python package for calculating various drought indices.
 """
 
 __version__ = "0.1.0"
-__author__ = "Parviz Khosravi"
-__email__ = "parviz.khosravi80@gmail.com"
+__author__ = "Your Name"
+__email__ = "your.email@example.com"
 
 from dic.indices.czi import ChinaZIndex
+from dic.indices.ci import CompositeIndex
 
-__all__ = ['ChinaZIndex']
+__all__ = ['ChinaZIndex', 'CompositeIndex']
