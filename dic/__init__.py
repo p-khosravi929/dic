@@ -9,5 +9,6 @@ __email__ = "your.email@example.com"
 
 from dic.indices.czi import ChinaZIndex
 from dic.indices.ci import CompositeIndex
+from dic.indices.mczi import ModifiedChinaZIndex
 
-__all__ = ['ChinaZIndex', 'CompositeIndex']
+__all__ = ['ChinaZIndex', 'CompositeIndex', 'ModifiedChinaZIndex']
